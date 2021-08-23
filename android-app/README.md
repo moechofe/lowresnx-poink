@@ -1,0 +1,8 @@
+- use bin2header to transform `com.moechofe.poink/app.nx` to `com.moechofe.poink/app/jni/src/app.nx.h`
+- open `com.moechofe.poink` folder using android studio
+- take the `keystore.jks` and `private_key.pepk` from KeePassXC and place it into `GooglePlayStore/keystore`
+- edit `versionCode` and `versionName` from `app//manifest//AndroidManifest.xml` and `Gradle Scripts//bulid.gradle (Module:app)`
+- Build >> Generate Signed Bundle or APK >> Android App Bundle
+- Open "Google Play Console" >> Production >> Edit Release >> Upload
+- Select file from `com.moechofe.poink/app/release/app-release.aab`
+- 

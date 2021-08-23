@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zHc-VT-xsV">
+    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wBl-YT-HFl">
+            <objects>
+                <viewController storyboardIdentifier="LaunchBoard" id="zHc-VT-xsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JdY-AD-B47">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="uLP-dK-RWv">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bg1-9l-aIo"/>
+                        <color key="backgroundColor" red="0.062702029940000001" green="0.058824934070000001" blue="0.058823458850000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uLP-dK-RWv" secondAttribute="bottom" id="07F-9J-RjG"/>
+                            <constraint firstItem="uLP-dK-RWv" firstAttribute="leading" secondItem="JdY-AD-B47" secondAttribute="leading" id="Zpz-bF-b6s"/>
+                            <constraint firstItem="uLP-dK-RWv" firstAttribute="top" secondItem="JdY-AD-B47" secondAttribute="top" id="ahj-i5-RZv"/>
+                            <constraint firstItem="uLP-dK-RWv" firstAttribute="centerY" secondItem="JdY-AD-B47" secondAttribute="centerY" id="cIR-ia-0OG"/>
+                            <constraint firstItem="uLP-dK-RWv" firstAttribute="centerX" secondItem="JdY-AD-B47" secondAttribute="centerX" id="dCc-5D-BGb"/>
+                            <constraint firstAttribute="trailing" secondItem="uLP-dK-RWv" secondAttribute="trailing" id="oG4-jp-VFu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Qw-VC-El6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-277" y="73"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="960" height="768"/>
+    </resources>
+</document>

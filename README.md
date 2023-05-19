@@ -6,6 +6,8 @@ The original game was made by [Paul Van Der Valk](https://www.lemonamiga.com/gam
 
 [Some gameplay](https://www.youtube.com/watch?v=vfQR5yUmGbQ) on youtube.
 
+[Some screenshot](https://moechofe.itch.io/poink) on itch.io.
+
 ### The mean-to-be-played version:
 
 1. This version is accessible using the [LowRes NX Coder app](https://apps.apple.com/us/app/lowres-nx-coder/id1318884577) from the AppStore.

@@ -13,12 +13,14 @@ The original game was made by [Paul Van Der Valk](https://www.lemonamiga.com/gam
 3. Then, using the **Open in App** button.
 4. Finally, in the top-right corner, use **Save to my programs** button.
 
-### The "desktop" version:
+### The desktop version:
 
 The code source of the game is downloadable from the [page of the project](https://lowresnx.inutilis.com/topic.php?id=31), also with the [page for the editor](https://lowresnx.inutilis.com/topic.php?id=136).
 
 Even if the game is playable on the desktop version of **Lowres NX**, the controls are not the best. That's why I also made:
 
-### The standalone iOS version:
+### The phone version:
 
-This version provide the best controls of the 3 version: available on the [AppStore](https://apps.apple.com/app/id1580770937).
+This version provide the best controls: 
+- NOT available on the [AppStore](https://apps.apple.com/app/id1580770937) anymore, It cost too much,
+- Availible on the [Google Play Store](https://play.google.com/store/apps/details?id=com.moechofe.poink).

@@ -21,8 +21,17 @@ The code source of the game is downloadable from the [page of the project](https
 
 Even if the game is playable on the desktop version of **Lowres NX**, the controls are not the best. That's why I also made:
 
-### The phone version:
+### The phone (best) version:
+
+"Best" because it includes modification on Lowres NX engine that improves the controls (the touches).
 
 This version provide the best controls: 
 - NOT available on the [AppStore](https://apps.apple.com/app/id1580770937) anymore, It cost too much,
 - Availible on the [Google Play Store](https://play.google.com/store/apps/details?id=com.moechofe.poink).
+
+### To build the android version (note for myself)
+
+1. Open `android-app/com.moechofe.poink` using [Android Studio](https://developer.android.com/studio).
+2. `Generate Signed Android App Bundle`. (output are `android-app/com.moechofe.poink/app/release/app-release.aab`)
+3. Reach [Google Play Console](https://play.google.com/console/).
+

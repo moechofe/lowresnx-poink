@@ -74,38 +74,7 @@ bool runner_isOkay(struct Runner *runner)
 
 struct CoreError runner_loadProgram(struct Runner *runner, const char *filename)
 {
-    return core_compileProgram(runner->core, &app_nx);
-
-    // struct CoreError error = err_noCoreError();
-    
-    // FILE *file = fopen_utf8(filename, "rb");
-    // if (file)
-    // {
-    //     fseek(file, 0, SEEK_END);
-    //     long size = ftell(file);
-    //     fseek(file, 0, SEEK_SET);
-        
-    //     char *sourceCode = calloc(1, size + 1); // +1 for terminator
-    //     if (sourceCode)
-    //     {
-    //         fread(sourceCode, size, 1, file);
-            
-    //         error = core_compileProgram(runner->core, sourceCode);
-    //         free(sourceCode);
-    //     }
-    //     else
-    //     {
-    //         error = err_makeCoreError(ErrorOutOfMemory, -1);
-    //     }
-        
-    //     fclose(file);
-    // }
-    // else
-    // {
-    //     error = err_makeCoreError(ErrorCouldNotOpenProgram, -1);
-    // }
-    
-    // return error;
+    return core_compileProgram(runner->core, (const char*)&app_nx);
 }
 
 /** Called on error */

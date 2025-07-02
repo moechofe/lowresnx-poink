@@ -182,7 +182,7 @@ int main(int argc, char *argv[])
         while (!quit)
         {
             Uint32 ticks = SDL_GetTicks();
-            
+
             update(NULL);
             
             // limit to 60 FPS
@@ -408,20 +408,23 @@ void update(void *arg)
                 core_willSuspendProgram(runner.core);
                 break;
                 
-						/*
             case SDL_WINDOWEVENT:
                 switch (event.window.event)
                 {
                     case SDL_WINDOWEVENT_RESIZED: {
-                        SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION, "Resize %dx%d",event.window.data1, event.window.data2);
-                        updateScreenRect(event.window.data1, event.window.data2);
+
+                        int rw,rh;
+                        SDL_GetRendererOutputSize(renderer,&rw,&rh);
+                        SDL_RenderSetLogicalSize(renderer,rw,rh);
+                        updateScreenRect(rw, rh);
+                        //SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION, "Resize %dx%d",event.window.data1, event.window.data2);
+                        //updateScreenRect(event.window.data1, event.window.data2);
                         forceRender = true;
                         break;
                     }
                 }
                 break;
-						 */
-            
+
             /*
             case SDL_DROPFILE: {
                 if (hasPostfix(event.drop.file, ".nx") || hasPostfix(event.drop.file, ".NX"))

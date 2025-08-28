@@ -1,4 +1,4 @@
-def buildAsLibrary = project.hasProperty('BUILD_AS_LIBRARY');
+def buildAsLibrary = project.hasProperty('BUILD_AS_LIBRARY')
 def buildAsApplication = !buildAsLibrary
 if (buildAsApplication) {
     apply plugin: 'com.android.application'
@@ -8,15 +8,15 @@ else {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdk 36
     defaultConfig {
         if (buildAsApplication) {
             applicationId "com.moechofe.poink"
         }
         minSdkVersion 21
-        targetSdkVersion 34
-        versionCode 8
-        versionName "1.6"
+        targetSdkVersion 36
+        versionCode 9
+        versionName "1.7"
         externalNativeBuild {
             ndkBuild {
                 arguments "APP_PLATFORM=android-16"
@@ -54,8 +54,8 @@ android {
             variant.outputs.each { output ->
                 def outputFile = output.outputFile
                 if (outputFile != null && outputFile.name.endsWith(".aar")) {
-                    def fileName = "com.moechofe.poink.aar";
-                    output.outputFile = new File(outputFile.parent, fileName);
+                    def fileName = "com.moechofe.poink.aar"
+                    output.outputFile = new File(outputFile.parent, fileName)
                 }
             }
         }

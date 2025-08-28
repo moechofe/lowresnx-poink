@@ -4,9 +4,13 @@ It's also a demake because it was made exclusivily on an iPad using the applicat
 
 The original game was made by [Paul Van Der Valk](https://www.lemonamiga.com/games/list.php?list_people=Paul%20van%20der%20Valk) between 1992 and 2002. 7 versions was released during this period.
 
-[Some gameplay](https://www.youtube.com/watch?v=vfQR5yUmGbQ) on youtube.
+[![Some gameplay](https://img.youtube.com/vi/vfQR5yUmGbQ/0.jpg)](https://www.youtube.com/watch?v=vfQR5yUmGbQ)
 
 [Some screenshot](https://moechofe.itch.io/poink) on itch.io.
+
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+      alt="Download from Google Play"
+      height="80">](https://play.google.com/store/apps/details?id=com.moechofe.poink)
 
 ### The mean-to-be-played version:
 

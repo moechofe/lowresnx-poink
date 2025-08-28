@@ -1,0 +1,2 @@
+Enable 16 KB memory page requirement from Google Play Console.
+

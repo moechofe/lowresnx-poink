@@ -1,0 +1,2 @@
+A breakout game where the goal is to destroy the wall behind the bricks.
+

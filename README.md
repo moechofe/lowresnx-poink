@@ -8,7 +8,7 @@ Watch some gameplay of [Poink! on youtube](https://www.youtube.com/watch?v=vfQR5
 
 <img src="https://github.com/moechofe/lowresnx-poink/blob/a2a9967dd78d1994b2b9b00825bae2b35a448cfe/itch.io/cover.png" width=auto height=220 /> <a href="https://www.youtube.com/watch?v=vfQR5yUmGbQ"><img src="https://github.com/moechofe/lowresnx-poink/blob/61eb06177de80a44e0ac40f7e6adfcf823522d80/.github/youtube-cover.jpg" width=auto height=220 /></a>
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Poink! on Google Play Store" height=80>](https://play.google.com/store/apps/details?id=com.moechofe.poink) [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/itchio-button.png" height=80>](https://moechofe.itch.io/poink)
+[<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/googleplaystore-button.png" alt="Poink! on Google Play Store" height=80>](https://play.google.com/store/apps/details?id=com.moechofe.poink) [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/itchio-button.png" height=80>](https://moechofe.itch.io/poink)
 
 ### The mean-to-be-played version:
 

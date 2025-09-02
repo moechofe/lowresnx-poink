@@ -10,7 +10,7 @@ Watch some gameplay of [Poink! on youtube](https://www.youtube.com/watch?v=vfQR5
 
 | the best version ❤️ | not recommended 🤢 | download source ⬇️ |
 |---|---|---|
-| [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/googleplaystore-button.png" alt="Poink! on Google Play Store" height=80>](https://play.google.com/store/apps/details?id=com.moechofe.poink) | [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/itchio-button.png" height=80>](https://moechofe.itch.io/poink) | [<img src="https://github.com/moechofe/lowresnx-poink/blob/master/.github/browser-button.png" alt="Poink! on LowresNX" height=80>](https://lowresnx.inutilis.com/topic.php?id=31) |
+| [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/googleplaystore-button.png" alt="Poink! on Google Play Store" height=80>](https://play.google.com/store/apps/details?id=com.moechofe.poink) | [<img src="https://github.com/moechofe/lowresnx-poink/blob/0157eff8c2090682ce90fba9439ebf251dc68b25/.github/itchio-button.png" alt="Poink! on itch.io" height=80>](https://moechofe.itch.io/poink) | [<img src="https://github.com/moechofe/lowresnx-poink/blob/master/.github/browser-button.png" alt="Poink! on LowresNX forum" height=80>](https://lowresnx.inutilis.com/topic.php?id=31) |
 
 ### The mean-to-be-played version:
 
